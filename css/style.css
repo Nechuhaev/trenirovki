@@ -9,12 +9,9 @@ body {
 }
 
 input {
-    padding: 8px;
-    font-family: inherit;
+   
 }
 
 label {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 8px;
+  
 }

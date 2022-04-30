@@ -9,60 +9,19 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<div class="forms">
-<form>
-    <label>
-        Username
-        <input type="text" name="username" placeholder="Jacob Mercer" autofocus />
-    </label>
-    <label>
-        Email
-        <input type="email" name="email" />
-    </label>
-    <label>
-        Password
-        <input type="password" name="password" minlength="5" maxlength="12" />
-    </label>
-    <label>
-        Age
-        <input type="number" name="age" value="0" min="18" max="120" />
-    </label>
-    <label>
-        Phone number
-        <input type="tel" name="phone_number" />
-    </label>
 
-</form>
-<form>
-    <p>Choose a color:</p>
-    <label>
-        <input type="radio" name="color" value="red" checked />
-        Red
-    </label>
-    <label>
-        <input type="radio" name="color" value="white" />
-        White
-    </label>
-    <label>
-        <input type="radio" name="color" value="green" />
-        Green
-    </label>
-    <button type="submit">Submit</button>
-</form>
-<form>
-    <p>What are your hobbies?</p>
-    <label>
-        <input type="checkbox" name="hobby" value="music" checked />
-        Music
-    </label>
-    <label>
-        <input type="checkbox" name="hobby" value="sports" checked />
-        Sports
-    </label>
-    <label>
-        <input type="checkbox" name="hobby" value="reading" />
-        Reading
-    </label>
+<form class="js-speaker-form">
+    <label for="Name">Имя</label>
+    <input type="text" name="name" id="name">
+<br/>
+    <label for="tel">Телефон</label>
+    <input type="tel" name="tel" id="tel">
+<br />
+    <label for="mail">Почта</label>
+    <input type="email" name="mail" id="mail">
+<br />
+    <button type="submit">Оставить заявку</button>
+
 </form>
 
 
