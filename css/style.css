@@ -34,3 +34,15 @@ textarea {
 .form-field label {
   margin-bottom: 5px;
 }
+
+.form-field input::placeholder {
+  color: blue;
+}
+
+.group {
+}
+
+.group-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
