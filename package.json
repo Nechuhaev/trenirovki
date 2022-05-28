@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Nechuhaev.github.io/trenirovki",
+  "homepage": "https://nechuhaev.github.io/trenirovki",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /trenirovki/"
