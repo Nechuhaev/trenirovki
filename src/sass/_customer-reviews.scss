@@ -1,1 +1,47 @@
-.container {}
+.container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+    padding: 0 16px;
+  }
+}
+
+.review {
+  margin-top: 80px;
+  margin-bottom: 48px;
+}
+
+.review__tab {
+  padding: 43px 58px 26px 58px;
+  background-color: #fafafa;
+}
+
+.review__img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85px;
+  margin-bottom: 32px;
+}
+
+.review__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2.58;
+  text-align: center;
+}
+
+.review__quotes {
+  width: 54px;
+}
