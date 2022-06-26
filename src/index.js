@@ -72,15 +72,27 @@
 // count(2); // countFrom = 2, countTo = 10, step = 1
 // count(); // countFrom = 0, countTo = 10, step = 1
 
-function multiply(x, y, z) {
-  console.log(`Результат умножения равен ${x * y * z}`);
-}
+// function multiply(x, y, z) {
+//   console.log(`Результат умножения равен ${x * y * z}`);
+// }
 
-console.log("Лог до вызова функции multiply");
-multiply(2, 3, 5); // Результат умножения равен 30
-console.log("Лог после вызова функции multiply");
+// console.log("Лог до вызова функции multiply");
+// multiply(2, 3, 5); // Результат умножения равен 30
+// console.log("Лог после вызова функции multiply");
 
 // Последовательность логов в консоли
 // "Лог до вызова функции multiply"
 // "Результат умножения равен 30"
 // "Лог после вызова функции multiply"
+
+function count(countFrom = 0, countTo = 10, step = 1) {
+  console.log(`countFrom = ${countFrom}, countTo = ${countTo}, step = ${step}`);
+
+  for (let i = countFrom; i <= countTo; i += step) {
+    console.log(i);
+  }
+}
+
+count(1, 5); // countFrom = 1, countTo = 5, step = 1
+// count(2); // countFrom = 2, countTo = 10, step = 1
+// count(); // countFrom = 0, countTo = 10, step = 1
